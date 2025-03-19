@@ -94,9 +94,9 @@ python predict.py --file_path path/to/audio.wav
 - Expand the dataset with more diverse machine sounds.
 
 ## **Contributors**
-- **Jamshiad CH** (2021-UMDB-000740)
-- **Nohman Hameed** (2021-UMDB-000742)
-- **Abdul Haq Pirzada** (2021-UMDB-000743)
+- **Jamshiad CH(12)** (2021-UMDB-000740)
+- **Nohman Hameed(14)** (2021-UMDB-000742)
+- **Abdul Haq Pirzada(15)** (2021-UMDB-000743)
 
 ## **Supervisor**
 - **Engr. Ahmed Khwaja**
