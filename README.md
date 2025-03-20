@@ -61,6 +61,20 @@ This project focuses on developing an **Automatic Machine Fault Detection and Re
   - **Max Pooling layers** (Reduces dimensionality while retaining key features)
   - **Fully connected layers** (Classifies extracted features into different fault categories)
   - **Dropout layers** (Prevents overfitting during training)
+ 
+  - <img width="221" alt="jmd" src="https://github.com/user-attachments/assets/a74ac545-5ed7-4c6f-a102-c247dd176f90" />
+  - The class "Looseness" is one of the four fault types being classified in the confusion matrix. It is represented in the third row of the matrix, indicating how well the model predicts it compared to the actual occurrences.
+
+Why is "Looseness" classified?
+In the context of fault detection in electrical machines, "Looseness" refers to mechanical faults where machine components (e.g., bolts, bearings, or mountings) are not tightly secured, leading to vibrations and irregular movements. These conditions can generate unique sound patterns or spectrogram features that a CNN-based classifier can detect.
+
+How well is "Looseness" classified?
+The model correctly classified 407 instances of "Looseness" (true positives).
+
+It misclassified 9 instances as "Arcing," 9 as "Corona," and 46 as "Tracking."
+
+The majority of the samples were correctly classified, indicating that the model effectively distinguishes "Looseness" from other faults, though there are some misclassifications.
+
 
 ## **Results**
 - The **CNN model achieved over 60% accuracy** in detecting machine faults.
