@@ -53,6 +53,9 @@ This project focuses on developing an **Automatic Machine Fault Detection and Re
    - Train a **CNN model** to recognize fault patterns.
    - Optimize using **Adam optimizer & Binary Cross-Entropy loss function**.
    - Evaluate model performance using **accuracy, F1-score, and confusion matrix**.
+  
+   - <img width="395" alt="image" src="https://github.com/user-attachments/assets/53682598-433d-4d48-9cd0-a0db85e22493" />
+
 
 ## **Model Development**
 - The core **deep learning model** is a **CNN-based classifier** with the following layers:
